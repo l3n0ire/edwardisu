@@ -1,0 +1,123 @@
+body
+{
+	font-family: calibri;
+	background-color: beige;
+	size: 80%;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    transform: scale(0.95);
+	-ms-transform-origin: 50% 0;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+p
+{
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+h1
+{
+	font-size: 64px;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 36px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+li
+{
+	font-size: 17px;
+	font-family: calibri;
+	padding: 2px;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column
+{
+	float: left;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.square
+{
+	border: 2px solid #4190A8;
+	border-style: solid;
+	padding: 5%;
+	display: flex;
+}
+
+.particle img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.particle h4
+{
+	font-size: 13px;
+	font-family: tahoma;
+    text-align: center;
+    width: 117px;
+}
+
+.particle-info
+{
+	padding-left: 5%;
+}
+
+.legend
+{
+	padding: 3%;
+	text-align: center;
+}
+
+#by
+{
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#quarks
+{
+	color: #A349A4;
+}
+
+#leptons
+{
+	color: #22B14C;
+}
+
+#gauge-bosons
+{
+	color: #ED1C24;
+}
+
+#scalar-bosons
+{
+	color: #FFF200;
+}
+
+#legend-text
+{
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+}
